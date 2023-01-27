@@ -1,0 +1,42 @@
+body{
+    background-color: aqua;
+    /* display:flex; */
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+.container{
+    background-color: yellowgreen;
+    /* margin:auto; */
+    margin:auto auto;
+    width:50vw;
+    height:30vh;
+    position: relative;
+    top:110px;
+     display: flex;
+     flex-direction:column;
+     align-items:center;   
+}
+
+ul{
+    font-size:medium;
+    font-weight: bolder;
+    color:whitesmoke;
+}
+
+span{
+    margin-left:100px;
+}
+
+.btn{
+    background-color: blueviolet;
+    min-width:5vw;
+    border:none;
+    border-radius: 2em;
+    font-weight: bold;
+    font-size:small;
+}
+.btn:hover{
+    background-color: whitesmoke;
+}
